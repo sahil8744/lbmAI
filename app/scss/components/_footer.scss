@@ -1,0 +1,43 @@
+footer {
+  ul {
+    li {
+      a {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  footer {
+    ul {
+      li {
+        a {
+          font-size: 18px;
+        }
+      }
+    }
+    .logo {
+      order: -1;
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  footer {
+    .logo {
+      order: -1;
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  footer {
+    ul {
+      li {
+        a {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

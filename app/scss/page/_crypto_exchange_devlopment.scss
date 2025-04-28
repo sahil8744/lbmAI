@@ -1,0 +1,20 @@
+
+
+
+    section.currencyes{
+       .margin_btm{
+        margin-top: 46px    ;
+       }
+        .card_bx {
+            padding: 14px;
+            border-radius: 20px;
+            transition: all 0.5s;
+            color: #fff;
+            background-color:var(--light_grayy);
+            .inner_text{
+                img{
+                    margin-top: -46px;
+                }
+            }
+        }
+    } 

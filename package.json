@@ -1,0 +1,46 @@
+{
+  "name": "nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@contentful/rich-text-react-renderer": "^16.0.1",
+    "@contentful/rich-text-types": "^17.0.0",
+    "@gsap/react": "^2.1.1",
+    "@iconify/icons-eva": "^1.2.6",
+    "@iconify/icons-fa-solid": "^1.2.4",
+    "@iconify/icons-mdi": "^1.2.48",
+    "@iconify/icons-pepicons-pencil": "^1.2.1",
+    "@iconify/react": "^4.1.1",
+    "@next/third-parties": "^14.2.3",
+    "@studio-freight/lenis": "^1.0.42",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "contentful": "^11.1.4",
+    "gsap": "^3.12.7",
+    "intl-tel-input": "^23.0.4",
+    "next": "^14.2.15",
+    "react": "^18",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18",
+    "react-loading-skeleton": "^3.5.0",
+    "react-locomotive-scroll": "^0.2.2",
+    "react-toastify": "^10.0.5",
+    "sass": "^1.77.0",
+    "sharp": "^0.33.5",
+    "split-type": "^0.3.4",
+    "styled-components": "^6.1.11",
+    "swiper": "^11.2.2",
+    "vanilla-tilt": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "typescript": "5.7.2",
+    "vite-plugin-svgr": "^4.2.0"
+  }
+}

@@ -1,0 +1,221 @@
+section.wallet_features {
+  // .nav-link {
+  //   border-radius: 4px;
+  //   display: inline-block;
+  //   font-size: 20px;
+  //   padding: 12px 25px;
+  //   transition: all 0.5s;
+  //   font-weight: 600;
+  //   color: var(--black);
+  //   background-color: var(--light_gray);
+  // }
+  .nav-link {
+    padding: 12px 25px;
+    background-color: var(--light_gray);
+    color: var(--black);
+    h3{
+      font-size: 20px;
+      font-weight: 600;
+      border-radius: 4px;
+      display: inline-block;
+      margin: 0;
+      // transition: all 0.5s;
+    }
+  }
+}
+
+section.devel_process {
+  .card_bx {
+    position: relative;
+    .inner_text {
+      display: flex;
+      background-color: var(--light_gray);
+      img {
+        padding: 10px;
+        background-color: var(--yellow-green);
+      }
+      h5 {
+        padding: 10px;
+        margin-bottom: 0;
+      }
+    }
+
+    // :before {
+    //   content: url("/cryptwalletImg/right_arrow.png");
+    //   position: absolute;
+    //   top: 0;
+    //   left: 100%;
+    //   width: 100%;
+    //   height: 2px;
+    //   bottom: 0;
+    //   margin: auto;
+    // }
+  }
+  // :after {
+  //   content: "";
+  //   position: absolute;
+  //   top: 0;
+  //   left: 100%;
+  //   width: 100%;
+  //   height: 100%;
+  //   bottom: 0;
+  //   margin: auto;
+  // }
+  .move_right {
+    right: -85px !important;
+    position: relative;
+  }
+
+  .box_a:before {
+    content: "";
+    position: absolute;
+    border-bottom: 2px dashed #000;
+    width: 100%;
+    height: 2px;
+    left: 25px;
+    top: 40px;
+  }
+  .box_a:after {
+    content: "";
+    width: 2px;
+    height: 106%;
+    border-right: 2px dashed #000;
+    position: absolute;
+    right: -25px;
+    top: 42px;
+  }
+  .box_b:before,
+  .box_b:after {
+    left: -32px !important;
+  }
+  .box_c:before {
+    width: 50% !important;
+  }
+  .box_c:after {
+    border: none !important;
+  }
+}
+
+section.devel_process {
+     
+  // .card_bx {
+  //   .inner_text {
+  //   height: ;
+  //   }
+  // }
+}
+
+section.crafting {
+  border-radius: 6px;
+  .bg_ligh_see {
+    background-color: #eefcfe;
+  }
+  .bg_dark_cream {
+    background-color: #ffe8cc;
+  }
+  .bg_light_blander {
+    background-color: #f6f1ff;
+  }
+  .bg_light_red {
+    background-color: #fff0ee;
+  }
+  .bg_light_yellowgreen {
+    background-color: #f5ffd9;
+  }
+  .bg_light_sky {
+    background-color: #d4e8ff;
+  }
+  .bg_light_pink {
+    background-color: #ffddeb;
+  }
+  .inner_text {
+    img {
+      margin-bottom: 16px;
+    }
+  }
+}
+
+section.about_lbm {
+  .inner_text {
+    img {
+      margin-bottom: 16px;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  section.devel_process {
+    .move_right {
+      right: 0 !important;
+    }
+    .box_a::before,
+    .box_a::after {
+      content: unset;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  section.devel_process {
+    .card_bx {
+      .inner_text {
+        h5 {
+          font-size: 19px;
+          padding: 0px 10px;
+          
+        }
+      }
+    }
+  }
+  section.wallet_features {
+    .nav-link {
+      h3{
+        font-size: 14px;
+      }
+      padding: 8px;
+      border-radius: 4px;
+    }
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  section.devel_process {
+    .card_bx {
+      .inner_text {
+        h5 {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  section.devel_process {
+    .card_bx {
+      .inner_text {
+        h5 {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  section.wallet_features {
+    .nav-link {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  section.devel_process {
+     
+    .card_bx {
+      .inner_text {
+        h5 {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+

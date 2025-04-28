@@ -1,0 +1,36 @@
+.arrow {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  animation: mover 1s infinite alternate;
+  -webkit-animation: mover 1s infinite alternate; /* Add WebKit prefix for compatibility */
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .arrow {
+    width: 20%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .arrow {
+    width: 24%;
+  }
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@-webkit-keyframes mover { /* Add WebKit prefix for compatibility */
+  0% {
+    -webkit-transform: translateY(0); /* Add WebKit prefix for compatibility */
+  }
+  100% {
+    -webkit-transform: translateY(-10px); /* Add WebKit prefix for compatibility */
+  }
+}

@@ -1,0 +1,27 @@
+.heading_h3 {
+  font-size: 37px;
+  color: var(--white);
+  font-weight: bold;
+  font-family: var(--font-family-proxima_nova);
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .heading_h3 {
+    font-size: 23px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .heading_h3 {
+    font-size: 26px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .heading_h3 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .heading_h3 {
+    font-size: 26px;
+  }
+}

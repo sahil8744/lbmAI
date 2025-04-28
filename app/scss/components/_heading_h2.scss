@@ -1,0 +1,39 @@
+h2 {
+    font-family: Rowdiesbold;
+  
+    span {
+      color: var(--yellow-green);
+    }
+  }
+  
+
+  .heading_h2 {
+      font-size: 58px;
+  }
+  
+  @media (min-width: 320px) and (max-width: 575px) {
+    .heading_h2 {
+        font-size: 26px;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767px) {
+    .heading_h2 {
+        font-size: 32px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .heading_h2 {
+        font-size: 32px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .heading_h2 {
+        font-size: 40px;
+    }
+  }
+  @media (min-width: 1200px) and (max-width: 1399px) {
+    .heading_h2 {
+        font-size: 44px;
+    }
+  }
+  

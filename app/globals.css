@@ -1,0 +1,204 @@
+:root {
+  --font-family-inter: "Inter", sans-serif;
+  --font-family-noto: "Noto Serif KR", serif;
+  --font-family-dm-sans: DM Sans, sans-serif;
+  --font-family-Caveat: "Caveat", cursive;
+  --font-family-rowdies_bold: "Rowdies";
+  --font-family-proxima_nova: "Proxima Nova";
+  --font-family-proxima_ex_bold: "proximanovacond";
+  --font-family-proxima_semibold: "Proxima Nova Semibold";
+  --font-family-lato_black: "Lato-Black";
+  --font-family-Proxima-semi: " Proxima_Nova_Semibold";
+  --font-family-GeneralSans-regular: "GeneralSans-Regular";
+  --font-family-GeneralSans-Medium: "GeneralSans-Medium";
+}
+
+
+
+
+@font-face {
+  font-family: Rowdiesbold;
+  src: url('./fonts/Rowdies-Bold.ttf');
+}
+
+
+@font-face {
+  font-family: NovaLight;
+  src: url('./fonts/Proxima-Nova-Light.otf');
+}
+
+
+@font-face {
+  font-family: proximanovacond;
+  src: url('./fonts/proximanovacond-extrabold.otf');
+}
+
+
+@font-face {
+  font-family: LatoBold;
+  src: url('./fonts/Lato-Bold.ttf');
+}
+
+
+@font-face {
+  font-family: Proxima Nova Semibold;
+  src: url("./fonts/Mark-Simonson-Proxima-Nova-Semibold.otf");
+}
+
+
+@font-face {
+  font-family: Proxima Nova;
+  src: url("./fonts/Mark-Simonson-Proxima-Nova-Light.otf");
+}
+
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url("./fonts/Poppins-Medium.ttf");
+}
+
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("./fonts/Poppins-Regular.ttf");
+}
+
+
+@font-face {
+  font-family: brigends;
+  src: url("./fonts/brigends.otf");
+}
+
+
+@font-face {
+  font-family: Proxima_Nova_Semibold;
+  src: url("./fonts/Proxima_Nova_Semibold.ttf");
+}
+
+
+@font-face {
+  font-family: GeneralSans-Regular;
+  src: url("./fonts/GeneralSans-Regular.otf");
+}
+
+
+
+@font-face {
+  font-family: GeneralSans-Medium;
+  src: url("./fonts/GeneralSans-Medium.otf");
+}
+
+
+@font-face {
+  font-family: Proxima_Nova_Regular;
+  src: url("./fonts/Proxima_Nova_Regular.ttf");
+}
+
+
+@font-face {
+  font-family: Antonio-Bold;
+  src: url("./fonts/Antonio-Bold.ttf");
+}
+
+
+@font-face {
+  font-family: Antonio-Bold;
+  src: url("./fonts/Antonio-Bold.ttf");
+}
+
+
+@font-face {
+  font-family: Onest-Medium;
+  src: url("./fonts/Onest-Medium.ttf");
+}
+
+
+@font-face {
+  font-family: Onest-Regular;
+  src: url("./fonts/Onest-Regular.ttf");
+}
+
+
+@font-face {
+  font-family: Onest-SemiBold;
+  src: url("./fonts/Onest-SemiBold.ttf");
+}
+
+
+@font-face {
+  font-family: Onest-Light;
+  src: url("./fonts/Onest-Light.ttf");
+}
+@font-face {
+  font-family:Onest-Thin;
+  src: url("./fonts/Onest-Thin.ttf");
+}
+
+
+
+.bold {
+  font-family: Onest-SemiBold;
+}
+.thin {
+  font-family:Onest-Thin !important;
+}
+
+
+.semib_bold{
+  font-family: Onest-SemiBold !important;
+}
+
+
+
+
+html,
+body {
+  overflow-x: hidden;
+  font-family: var(--font-family-proxima_nova) !important;
+}
+
+
+
+.font-antonio {
+  font-family: Antonio-Bold !important;
+  text-transform: uppercase;
+  font-size: 428px;
+  /* transform: scale(.7, 1); */
+  white-space: nowrap;
+  mix-blend-mode: hard-light;
+  text-align: start;
+}
+
+
+.moving {
+  animation: marquee 2s linear infinite;
+}
+
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+
+
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}

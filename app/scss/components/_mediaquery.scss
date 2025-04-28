@@ -1,0 +1,29 @@
+@media (min-width: 320px) and (max-width: 575px) {
+  // section css start devel_process
+  .devel_process {
+    .card_bx {
+      .inner_text {
+        h3 {
+          font-size: 15px;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  // section css end devel_process
+}
+
+@media (min-width: 576px) and (max-width: 1199px) {
+// section css start devel_process
+.devel_process {
+    .card_bx {
+      .inner_text {
+        h3 {
+          font-size: 16px;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  // section css end devel_process
+}

@@ -1,0 +1,138 @@
+/* accordion css */
+section.faq .accordion-button:focus {
+  box-shadow: unset !important;
+}
+
+section.faq .accordion-button:not(.collapsed) {
+  box-shadow: unset !important;
+  background: #1d1b1b !important;
+}
+div#collapseOne,
+div#collapseTwo,
+div#collapseThree,
+div#collapseFour,
+div#collapseFive {
+  background-color: #1d1b1b;
+  border-radius: 0 0 15px 15px;
+}
+
+section.faq .accordion-collapse p {
+  line-height: unset;
+  font-size: 18px !important;
+  color: var(--white);
+}
+
+section.faq .accordion-item {
+  color: var(--bs-accordion-color);
+}
+
+.accordion {
+  position: relative;
+}
+
+.accordion:before {
+  content: "";
+  height: 96%;
+  width: 2px;
+  background: #464343;
+  position: absolute;
+  left: -27px;
+}
+
+div#collapseOne {
+  position: relative;
+}
+
+div#collapseOne:after,
+div#collapseTwo:after,
+div#collapseThree:after,
+div#collapseFour:after,
+div#collapseFive:after {
+  content: "";
+  height: 156%;
+  width: 1px;
+  background: #fff;
+  position: absolute;
+  left: -27px;
+  top: -57px;
+}
+
+div#collapseTwo:after {
+  height: 36%;
+  top: 79px;
+}
+
+div#collapseThree:after {
+  height: 37%;
+  top: 136px;
+}
+
+div#collapseFour:after {
+  height: 41%;
+  top: 205px;
+}
+
+div#collapseFive:after {
+  height: 41%;
+  top: 205px;
+}
+
+section.faq .accordion-item,
+section.faq button.accordion-button.collapsed,
+section.faq .accordion-button:not(.collapsed) {
+  border: unset !important;
+  color: #fff !important;
+  border-radius: 15px 15px 0 0;
+  margin-bottom: 10px;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: var(--bs-accordion-btn-active-icon);
+  transform: var(--bs-accordion-btn-icon-transform);
+}
+
+section.faq .accordion-button:not(.collapsed) {
+  box-shadow: unset !important;
+  background: #000;
+}
+
+section.faq .accordion-item,
+section.faq button.accordion-button.collapsed {
+  background-color: #0e0c0c;
+}
+
+section.faq .accordion-button::after {
+  filter: invert(0.5);
+  padding: 10px 10px;
+  border: 1px solid #616161;
+}
+
+.accordion-button {
+  margin: 0 !important;
+  font-weight: 500;
+  font-family: var(--font-family-proxima_semibold) !important;
+}
+.accordion-header {
+  border-radius: 12px 12px 0px 0 !important;
+  overflow: hidden;
+  button {
+    h4 {
+      font-size: 20px;
+    }
+  }
+}
+.accordion-collapse.collapse.show {
+  background: #1d1b1b;
+  border-radius: 0px 0 12px 12px !important;
+}
+/* accordion css */
+
+@media(min-width: 320px)and (max-width:767px) {
+  .accordion-header {
+    button {
+      h4 {
+        font-size: 16px;
+      }
+    }
+  }
+}

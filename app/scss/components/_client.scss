@@ -1,0 +1,22 @@
+section.clients {
+  .client_review {
+    .inner_txt {
+      padding: 20px;
+      border-radius: 10px;
+    }
+  }
+}
+
+
+
+@media (min-width: 320px) and (max-width: 575px) {
+     section.clients {
+    .client_review {
+      .inner_txt {
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

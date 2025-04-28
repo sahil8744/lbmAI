@@ -1,0 +1,542 @@
+.sticky {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white; /* or any other background to cover content underneath */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for effect */
+  transform: translateY(-100%); /* Start hidden */
+  transform: translateY(0);
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+nav {
+  padding: 14px 0;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+
+  ul {
+    li {
+      padding: 10px 16px;
+      .icons{
+        padding: 8px 0;
+      }
+      a {
+        font-size: 16px;
+
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+        color: var(--black) !important;
+        font-family: Poppins-Medium !important;
+
+        .line {
+          width: 0;
+          background-color: var(--yellowgreen);
+          height: 2px;
+          position: absolute;
+          bottom: 0;
+          transition: 0.5s all;
+        }
+
+        &:hover {
+          .line {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    li.dropdowns {
+      &:hover {
+        ul.hide {
+          display: block;
+          position: absolute;
+          z-index: 999;
+          width: 100%;
+          right: 0;
+          left: 0;
+          height: auto;
+          transition: 0.5s all;
+          margin: 0 auto;
+          margin-top: 0px;
+          padding-top: 14px !important;
+
+          .shadow {
+            border-top: 1px solid #010101;
+            box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+          }
+        }
+
+        .nav-link:hover span {
+          transform: scale(1.1);
+          transition: 0.3s all;
+        }
+      }
+
+      ul.hide {
+        display: none;
+        border-radius: 0 0 12px 12px;
+      }
+    }
+  }
+
+  .bttn {
+    background-color: rgb(21, 228, 158);
+    line-height: 19px;
+    min-height: 45px;
+    padding: 0px 20px;
+    border-radius: 30px;
+    border: 0;
+    font-weight: 600;
+  }
+
+  .dropdown-menu {
+    background-color: var(--yellowgreen);
+  }
+}
+.dropdwon ul li {
+	padding: 2px 0;
+}
+
+.services {
+  .header_btn {
+    a {
+      display: inline-block;
+      background-color: #000;
+      color: #fff;
+      font-size: 16px;
+      padding: 10px 22px;
+      border-radius: 6px;
+    }
+    svg {
+      font-size: 30px;
+    }
+  }
+  .service_nav {
+    .dropdwon {
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      overflow-y: auto;
+      // height: 100vh;
+      // max-height: 550px;
+      a.drop_footer {
+        color: #ffffff !important;
+      }
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+  }
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+$color_1: #fff;
+$background-color_1: #131313;
+$background-color_2: #3b5998;
+$background-color_3: #1da1f2;
+$background-color_4: #cd201f;
+$background-color_5: #0088cc;
+
+.topbar {
+  background-color: $background-color_1;
+  border-bottom: 1px solid #1c1c1c;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  position: relative;
+  border-bottom: 1px solid #353535;
+  ul.icons {
+    justify-content: end !important;
+  }
+
+  .news_line {
+    p {
+      white-space: nowrap;
+    }
+
+    iconify-icon {
+      font-size: 40px;
+    }
+
+    .line_part {
+      width: 2px;
+      height: 40px;
+      margin: 0 15px;
+      background: linear-gradient(
+        180deg,
+        #131313 9.18%,
+        #626262 36.12%,
+        #626262 67.47%,
+        #131313 96.94%
+      );
+    }
+  }
+}
+
+.nav-link {
+  font-size: 16px;
+}
+
+ul.social_icons {
+  li {
+    a {
+      svg {
+        color: $color_1;
+        font-size: 32px;
+        transition: 0.3s all;
+        &:hover {
+          color: var(--yellowgreen);
+        }
+      }
+    }
+    &:nth-child(4) {
+      a {
+        i {
+          background-color: $background-color_3;
+        }
+      }
+    }
+
+    &:nth-child(5) {
+      a {
+        i {
+          background-color: $background-color_4;
+        }
+      }
+    }
+
+    &:nth-child(6) {
+      a {
+        i {
+          background-color: $background-color_5;
+        }
+      }
+    }
+  }
+}
+
+.service_nav {
+  &:hover {
+    .dropdwon {
+      top: 43px;
+      visibility: visible;
+      opacity: 1;
+      max-height: 600px;
+    }
+  }
+  .dropdwon {
+    overflow: hidden;
+    overflow-y: hidden;
+    opacity: 0;
+    z-index: 999;
+    background-color: rgb(255, 255, 255) !important;
+    margin: auto;
+    top: 42px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: auto;
+    transition: 0.5s all ease-in-out;
+    box-shadow: rgba(255, 255, 255, 0.24) -4px 9px 23px -6px;
+    visibility: hidden;
+    position: absolute;
+
+    .inner_text {
+      h1 {
+        font-family: "Noto Serif KR", serif;
+      }
+    }
+
+    ul {
+      li {
+        h5 {
+          text-transform: capitalize;
+          width: fit-content;
+          color: var(--black) !important;
+          font-size: 20px;
+          margin-bottom: 14px;
+          font-weight: bold;
+          font-family: Proxima Nova Semibold;
+
+          &:hover {
+            color: var(--black) !important;
+          }
+        }
+
+        a {
+          color: #817979 !important;
+          transition: 0.4s all;
+
+          &:hover {
+            color: #000;
+            transform: scale(1.03);
+          }
+
+        }
+        .icons {
+          img {
+            width: 30px;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  &:hover {
+    .dropdwon {
+      // height: 200px;
+    }
+  }
+}
+
+.navbar-toggler:focus,
+.navbar-toggler {
+  border: 0 !important;
+  padding: 0 !important;
+  box-shadow: unset !important;
+}
+
+nav button.btn_cls:hover {
+  background: var(--yellow-green) !important;
+}
+
+// new header css end
+
+@media (min-width: 1400px) and (max-width: 1499px) {
+  nav {
+    ul {
+      li.dropdowns ul.hide {
+        left: -26%;
+      }
+    }
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+  nav {
+    ul {
+      li.dropdowns ul.hide {
+        left: -22%;
+      }
+
+      li {
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+      }
+    }
+  }
+
+  .service_nav:hover .dropdwon {
+    // height: 200px !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  nav ul li {
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+
+  .service_nav:hover .dropdwon {
+    // height: 200px !important;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 320px) {
+  .contact_details {
+    &:before {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 1299px) and (min-width: 992px) {
+  .contact-info {
+    img {
+      width: 25px;
+      object-fit: contain !important;
+    }
+  }
+
+  ul.social_icons {
+    li {
+      a {
+        i {
+          width: 35px;
+          height: 35px;
+          font-size: 18px;
+        }
+      }
+    }
+
+    
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  a.mob {
+    font-size: 14px;
+  }
+
+  nav {
+    ul {
+      li {
+        a {
+          font-size: 16px !important;
+          font-weight: 400;
+          padding: 0 !important;
+        }
+
+        padding-right: 14px !important;
+        padding-left: 14px !important;
+      }
+    }
+
+    li.dropdowns ul.hide {
+      left: -22%;
+    }
+
+    .dropdwon {
+      ul {
+        li {
+          a {
+            font-size: 14px !important;
+          }
+        }
+      }
+    }
+  }
+
+  .topbar {
+    .logo {
+      img {
+        width: 80%;
+      }
+    }
+  }
+
+
+
+  .service_nav {
+    .dropdwon {
+      ul {
+        li {
+          h5 {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+  .services {
+    .header_btn {
+      a {
+        font-size: 14px;
+        padding: 8px 16px;
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+  .services {
+    .header_btn {
+      a {
+        font-size: 13px;
+        padding: 8px 11px;
+        border-radius: 6px;
+      }
+    }
+  }
+
+  nav {
+    ul {
+      li.dropdowns {
+        ul.hide {
+          max-height: 810px;
+          overflow-y: scroll;
+          overflow-x: hidden;
+        }
+      }
+    }
+  }
+
+  .service_nav {
+    .dropdwon {
+      overflow: scroll;
+      overflow-x: hidden;
+      padding: 18px 0;
+    }
+  }
+
+  .navbar-brand img {
+    width: 80%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  a.wdth {
+    width: 58%;
+  }
+
+  nav {
+    .bttn {
+      min-height: unset;
+      padding: 8px 16px;
+
+      a {
+        font-size: 14px;
+      }
+    }
+
+    li.dropdowns {
+      &:hover {
+        ul.hide {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+}
+
+// Top Header css
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+// my new css start 27-11-23

@@ -1,0 +1,30 @@
+main,
+canvas {
+  display: block;
+
+}
+canvas {
+  display: block;
+  margin: 0 auto 1.5em auto;
+  width: 70%;
+  height: auto;
+  -webkit-tap-highlight-color: transparent;
+}
+.wrap {
+  margin: auto;
+  padding: 1.5em;
+  width: 100%;
+}
+
+
+@media(min-width:320px) and (max-width:575px){
+  .not_found_page{
+    
+    span,a{
+      font-size: 16px;
+    }
+    li{
+      display: block;
+    }
+  }
+}

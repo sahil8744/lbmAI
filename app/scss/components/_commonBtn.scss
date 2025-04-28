@@ -1,0 +1,48 @@
+.btn_cls {
+  color: var(--white);
+  border-radius: 6px;
+  display: inline-block;
+  font-size: 1.04vw;
+  padding: 0.72vw 1.66vw;
+  transition: all 0.5s;
+  font-weight: 600;
+  background-color: var(--yellow-green);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  &:hover {
+    background-color: var(--black_clr);
+  }
+
+}
+.btn_content {
+  font-family: 'Proxima Nova' !important;
+
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .btn_cls {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .btn_cls {
+    padding: 12px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .btn_cls {
+    font-size: 1.6vw;
+    padding: 1.3vw 1.8vw;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .btn_cls {
+    font-size: 1.4vw;
+    padding: 1.3vw 1.6vw;
+  }
+}

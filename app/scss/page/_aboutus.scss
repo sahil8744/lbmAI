@@ -1,0 +1,510 @@
+.about_uss {
+  p {
+    font-size: 1.4vw;
+    font-family: Proxima_Nova_Regular;
+  }
+  h1 {
+    font-family: Proxima_Nova_Semibold;
+    font-weight: bolder;
+  }
+  h2 {
+    font-size: 3.4vw;
+    font-family: Proxima_Nova_Semibold;
+    text-transform: capitalize;
+    font-weight: bolder;
+  }
+
+  .fs_14 {
+    font-size: 1.4vw !important;
+  }
+
+  .banner {
+    background-image: url("/about_us/employes.jpg");
+    background-size: cover;
+
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    padding: 4vw 0;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #000000a9;
+    }
+
+    .content {
+      h1 {
+        font-size: 5vw;
+        span {
+          color: #ffffff;
+        }
+      }
+      p {
+        color: #ffffff;
+        font-size: 1.6vw;
+      }
+
+      .pointer {
+        a {
+          width: 8vw;
+          height: 8vw;
+          display: inline-flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          color: #ffffff;
+          border-radius: 100%;
+          font-weight: 500;
+          text-align: center;
+          background-color: var(--yellow-green);
+          transition: 0.2s all;
+          span {
+            top: 1vw;
+            img {
+              width: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .our_company {
+    .cards {
+      p {
+        font-size: 1.5vw;
+      }
+    }
+  }
+
+  .brands {
+    position: relative;
+    .our_brands {
+      padding: 1.2vw 0;
+      background-color: #000000;
+      // background-color: #d4eaff8e;
+      h2 {
+        font-size: 2vw;
+        font-weight: bolder;
+      }
+    }
+
+    .moving {
+      position: relative;
+      // background-color: red;
+      span {
+        padding: 0 2vw;
+      }
+    }
+  }
+
+  .b-section {
+    background-color: #000;
+  }
+  .b-section-marquee-box {
+    display: flex;
+    align-items: center;
+  }
+  .moving {
+    transform: translateX(-100%);
+    animation: mrq 8s linear infinite;
+    font-family: Proxima_Nova_Regular !important;
+  }
+
+  @keyframes mrq {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+
+  .b-section-marquee-box h2 {
+    white-space: nowrap;
+    color: #ffffff;
+    font-size: 3vw;
+    padding: 2vw 1vw;
+    font-weight: 100;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    transform: translateX(0);
+    animation: b-text-scroll 20s linear infinite;
+    font-family: Proxima_Nova_Regular !important;
+  }
+  @keyframes b-text-scroll {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+
+  section.meet {
+    .text_bx {
+      position: relative;
+      left: 10vw;
+      z-index: 2;
+      h3 {
+        font-size: 2vw;
+        // font-weight: bolder;
+        font-family: Proxima_Nova_Semibold;
+      }
+      background-color: #ffffff;
+      padding: 2.4vw;
+      border-radius: 1.4vw;
+      box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+      p {
+        font-size: 1vw;
+      }
+    }
+    .meet_img {
+      border-top-left-radius: 1.3vw;
+      border-bottom-left-radius: 1.3vw;
+    }
+
+    .img_box {
+      position: relative;
+      transition: 1s all;
+      .hidden_txt {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: fit-content;
+        height: fit-content;
+
+        overflow: hidden;
+
+        // h2 {
+        //   color: #fff;
+        //   font-size: 5vw;
+        //   transform: translateY(100%);
+        //   transition: 0.8s all;
+        // }
+      }
+      // &:hover {
+      //   h2 {
+      //     transform: translateY(0);
+      //   }
+      // }
+      // &:hover::before {
+      //   content: "";
+      //   position: absolute;
+      //   top: 0;
+      //   left: 0;
+      //   width: 100%;
+      //   height: 100%;
+      //   background-color: #0000006e;
+      //   border-top-left-radius: 1.3vw;
+      //   border-bottom-left-radius: 1.3vw;
+      //   transition: 1s all;
+      // }
+    }
+  }
+
+  section.meet_people {
+    p {
+      font-size: 1vw;
+    }
+  }
+
+  section.m_director {
+    h2 {
+      font-size: 2.7vw;
+    }
+    p {
+      font-size: 1vw;
+    }
+    .hr {
+      height: 1px;
+      width: 100%;
+      display: inline-block;
+      background-color: #82838c;
+      margin: 2vw 0;
+    }
+    .m-dire {
+      color: #82838c;
+    }
+  }
+
+  section.team_leaders {
+    .name {
+      font-size: 1.4vw;
+      font-family: Proxima_Nova_Semibold;
+    }
+    .lead {
+      font-size: 0.8vw;
+      font-weight: 600;
+      color: #82838c;
+    }
+
+    .leader_img {
+      .cols:nth-child(odd) {
+        margin-top: 0vw;
+        // margin-top: 5vw;
+      }
+      .cols{
+        margin-bottom: 1.5vw;
+      }
+    }
+    .leader_details {
+      background-color: #000;
+      color: #fff !important;
+      padding: 0.5vw 1vw;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  // animation css astart
+
+  .about_uss {
+    .char {
+      opacity: 0.1;
+    }
+    .hidden {
+      // background-color: rgb(110, 110, 110);
+      overflow: hidden;
+      span {
+        display: inline-block;
+        transform: translateY(100%);
+      }
+    }
+
+    .banner {
+      background-size: 50%;
+      .content {
+        .pointer {
+          a {
+            opacity: 0;
+          }
+        }
+      }
+    }
+    section.meet_people {
+      .img_box {
+        height: 0;
+        overflow: hidden;
+        transition: 0.5s all;
+      }
+    }
+  }
+
+  .brands {
+    position: relative;
+    top: -100px;
+    z-index: -1;
+    .our_brands {
+      padding: 1.2vw 0;
+      background-color: #000000;
+      // background-color: #d4eaff8e;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .about_uss {
+    h1 {
+      font-size: 26px !important;
+    }
+    h2 {
+      font-size: 38px;
+    }
+    p,
+    .fs_14 {
+      font-size: 16px !important;
+    }
+    .banner .content {
+      .pointer {
+        a {
+          span {
+            img {
+              display: none;
+              margin-top: 10px;
+              width: 20px;
+            }
+          }
+          width: 110px;
+          height: 110px;
+          font-size: 12px;
+        }
+      }
+    }
+
+    .our_company {
+      .cards {
+        h2 {
+          font-size: 22px;
+        }
+        p {
+          font-size: 12px !important;
+        }
+      }
+    }
+
+    section.meet .text_bx {
+      left: 0;
+    }
+
+    section.team_leaders .name {
+      font-size: 16px;
+    }
+    .b-section-marquee-box h2 {
+      font-size: 22px;
+      padding: 3vw 1vw;
+    }
+
+    .brands {
+      .our_brands {
+        padding: 7.2vw 0 !important;
+        h2 {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 481px) and (max-width: 991px) {
+  .about_uss {
+    h1 {
+      font-size: 40px !important;
+    }
+    h2 {
+      font-size: 38px;
+    }
+    p,
+    .fs_14 {
+      font-size: 18px !important;
+    }
+    .banner .content {
+      .pointer {
+        a {
+          span {
+            img {
+              display: none;
+              margin-top: 10px;
+              width: 20px;
+            }
+          }
+          width: 110px;
+          height: 110px;
+          font-size: 12px;
+        }
+      }
+    }
+
+    .our_company {
+      .cards {
+        h2 {
+          font-size: 34px;
+        }
+        p {
+          font-size: 14px !important;
+        }
+      }
+    }
+
+    section.meet .text_bx {
+      left: 0;
+    }
+
+    section.team_leaders .leader_details {
+      padding: 10px 14px;
+      .name {
+        font-size: 20px;
+      }
+    }
+
+    .b-section-marquee-box h2 {
+      padding: 3vw 1vw;
+    }
+
+    .brands {
+      .our_brands {
+        padding: 18px 0 !important;
+        h2 {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about_uss {
+    h1 {
+      font-size: 54px !important;
+    }
+    p {
+      font-size: 20px !important;
+    }
+
+    .pointer a {
+      width: 110px !important;
+      height: 110px !important;
+      font-size: 12px;
+      img {
+        width: 18px !important;
+        margin-bottom: 10px;
+      }
+    }
+
+    .banner {
+      background-size: cover !important;
+      height: 74vh !important;
+    }
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .about_uss {
+    p {
+      font-size: 16px !important;
+    }
+    .pointer a {
+      width: 130px !important;
+      height: 130px !important;
+      font-size: 14px;
+      img {
+        width: 20px !important;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .banner {
+    background-size: cover !important;
+    // height: 74vh !important;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+  .about_uss {
+    h1 {
+      font-size: 46px !important;
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .about_uss {
+    h1 {
+      font-size: 56px !important;
+    }
+  }
+}
+
+
+
+// .fs_30{
+//   font-size: 8vw;
+// }

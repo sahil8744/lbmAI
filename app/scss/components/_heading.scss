@@ -1,0 +1,38 @@
+h1 {
+  font-family: Rowdiesbold;
+
+  span {
+    color: var(--yellow-green);
+  }
+}
+
+.banner_h  {
+    font-size: 72px;
+}
+
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .banner_h {
+      font-size: 30px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .banner_h {
+      font-size: 34px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner_h {
+      font-size: 34px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .banner_h {
+      font-size: 44px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .banner_h {
+      font-size: 46px;
+  }
+}

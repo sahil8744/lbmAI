@@ -1,0 +1,106 @@
+.para_text {
+  font-size: 20px;
+  line-height: 40px;
+  color: #212529;
+  margin-top: 10px;
+
+  a {
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      text-decoration: underline !important;
+    }
+
+  }
+
+  &.lh-base {
+    a {
+      font-weight: 600;
+      color: black !important;
+
+      &:hover {
+        color: black !important;
+      }
+    }
+  }
+
+  &.lh-base.text-white {
+    a {
+      font-weight: 600;
+      color: white !important;
+
+      &:hover {
+        color: white !important;
+      }
+    }
+  }
+
+  &.color_white {
+    a {
+      font-weight: 600;
+      color: white !important;
+
+      &:hover {
+        color: white !important;
+      }
+    }
+  }
+
+}
+
+.card_bx,
+.banner_text {
+  a {
+    font-weight: 600;
+    color: black !important;
+
+    &:hover {
+      color: black !important;
+    }
+  }
+}
+
+.h {
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    text-decoration: underline !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .para_text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .para_text {
+    font-size: 17px;
+    line-height: 26px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .para_text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .para_text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .cover_img {
+    width: 57% !important;
+  }
+
+  section.teachnology_sec .background_color {
+    padding: 21px 26px !important;
+
+  }
+}

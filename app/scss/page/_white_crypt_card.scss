@@ -1,0 +1,41 @@
+.mobile_app section.teachnology_sec {
+  .background_color:before {
+    content: unset;
+  }
+}
+
+.instantly_link {
+  .brands {
+    padding: 12px 41px;
+    border: 1px solid #9b9b9b;
+    border-radius: 50px;
+  }
+  .set_bg {
+    border-radius: 100px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .instantly_link {
+    .brands {
+      padding: 6px;
+    }
+    .set_bg {
+      border-radius: 20px;
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .instantly_link {
+    .set_bg {
+      border-radius: 20px;
+    }
+  }
+}
+@media (min-width: 992px) and (max-width: 1299px) {
+  .instantly_link {
+    .brands {
+      padding: 6px 18px;
+    }
+  }
+}

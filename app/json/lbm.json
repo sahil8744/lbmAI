@@ -1,0 +1,861 @@
+[
+  {
+    "fromPage": "",
+    "pageDescription": "Shape Your Digital Future with Our Blockchain, Software and Mobile App Development Solutions.",
+    "data": [
+      {
+        "icon": "team.png",
+        "heading": "Veteran Team",
+        "description": "We have skilled team of developers with extensive experience in blockchain technology and software development."
+      },
+      {
+        "icon": "sfotdev01.png",
+        "heading": "Technical Expertise",
+        "description": "Harnessing advanced technologies, our team delivers expert software and app solutions tailored to your business needs."
+      },
+      {
+        "icon": "nftMar03.png",
+        "heading": "24/7 Availability",
+        "description": "Our continuous support ensures seamless development solutions, addressing needs and concerns around the clock."
+      }
+    ]
+  },
+  {
+    "fromPage": "metaverse-development-company",
+    "pageDescription": "Avail Our Metaverse Development Solutions to Transform Your Vision into Virtual Reality",
+    "data": [
+      {
+        "icon": "team.png",
+        "heading": "Veteran Team  ",
+        "description": "Our seasoned metaverse developers create intuitive virtual environments to captivate and retain users."
+      },
+      {
+        "icon": "meta02.png",
+        "heading": "Comprehensive Solutions",
+        "description": "We offer end-to-end metaverse development services, including 3D modeling and VR/AR integration."
+      },
+      {
+        "icon": "meta03.png",
+        "heading": "Quality Assurance",
+        "description": "We adhere to the highest standards of quality, ensuring robust, reliable, and secure metaverse environments."
+      }
+    ]
+  },
+
+  {
+    "fromPage": "crypto-wallet-development-company",
+    "pageDescription": "Create Secure, User-Friendly Digital Wallets for Safely Storing, Managing, and Transacting Cryptocurrencies.",
+    "data": [
+      {
+        "icon": "nft01.png",
+        "heading": "Expert Developers",
+        "description": "We have a team of 200+ crypto developers to create secure crypto wallets, ensuring transparent transactions."
+      },
+      {
+        "icon": "nft02.png",
+        "heading": "Customized Solution",
+        "description": "We provide personalized crypto wallet development solutions according to your requirements."
+      },
+      {
+        "icon": "nft03.png",
+        "heading": "Innovative Technology",
+        "description": "We have expertise in the latest platforms, such as Ethereum, Solana, and Tron, to develop crypto wallets."
+      }
+    ]
+  },
+  {
+    "fromPage": "nft-development-company",
+    "pageDescription": "Experience Our Top-Notch NFT Development Solutions Tailored to Your Business Needs and Goals",
+    "data": [
+      {
+        "icon": "nft01.png",
+        "heading": "Industry Expertise",
+        "description": "Our NFT developers have proficiency in creating innovative NFT platforms to protect your digital assets."
+      },
+      {
+        "icon": "nft02.png",
+        "heading": "End-to-End Solutions",
+        "description": "We provide comprehensive NFT development services, including marketplace development and token integration."
+      },
+      {
+        "icon": "nft03.png",
+        "heading": "Transparent Process",
+        "description": "We maintain open communication throughout the development process, ensuring you are involved at every stage."
+      }
+    ]
+  },
+  {
+    "fromPage": "nft-game-development",
+    "pageDescription": "Create Innovative and Engaging NFT Games with Blockchain Integration at LBM Solutions.",
+    "data": [
+      {
+        "icon": "nft01.png",
+        "heading": "Expertise",
+        "description": "Our NFT developers excel in NFT game creation to deliver engaging, secure gaming experiences that meet your needs."
+      },
+      {
+        "icon": "metagm02.png",
+        "heading": "End-to-End Solutions",
+        "description": "Our development approach covers every stage, from initial concept to final deployment, ensuring the successful launch of NFT game."
+      },
+      {
+        "icon": "nft03.png",
+        "heading": "Game Optimization",
+        "description": "Our NFT game development solutions ensure smooth gameplay and performance across diverse platforms."
+      }
+    ]
+  },
+
+  {
+    "fromPage": "smart-contract-development-company",
+    "pageDescription": "We Develop Custom Smart Contracts to Boost Efficiency and Automate Transactions",
+    "data": [
+      {
+        "icon": "team.png",
+        "heading": "Skilled Team",
+        "description": "Our smart contract developers offer seamless smart contract services, meeting your specific business goals."
+      },
+      {
+        "icon": "smart02.png",
+        "heading": "Security Solutions",
+        "description": "We prioritize security to create secure smart contracts, safeguarding your transactions and data."
+      },
+      {
+        "icon": "smart03.png",
+        "heading": "Ongoing Support",
+        "description": "We provide continuous support and maintenance to ensure your smart contracts perform optimally."
+      }
+    ]
+  },
+
+  {
+    "fromPage": "custom-software-development-services",
+    "pageDescription": "We Provide Scalable CRM Software Development Solutions for Startups and Enterprises",
+    "data": [
+      {
+        "icon": "sfotdev01.png",
+        "heading": "Expert Developers",
+        "description": "Our software engineers bring extensive expertise to every project, ensuring high-quality software solutions."
+      },
+      {
+        "icon": "sfotdev02.png",
+        "heading": "Tailored Solutions",
+        "description": " We craft customized software that aligns with your specific business needs and goals."
+      },
+      {
+        "icon": "sfotdev03.png",
+        "heading": "Timely Delivery",
+        "description": "We are committed to meeting deadlines and delivering your software projects on time. "
+      }
+    ]
+  },
+
+  {
+    "fromPage": "cryptocurrency-exchange-development-company",
+    "pageDescription": "Transform Your Visions into Robust Crypto Exchange Development Solutions with us",
+    "data": [
+      {
+        "icon": "cryptcuur01.png",
+        "heading": "Expertise and Experience",
+        "description": "We provide unique cryptocurrency exchange development services ensuring the delivery of high-quality solutions. "
+      },
+      {
+        "icon": "cryptcuur02.png",
+        "heading": "Customized Solutions",
+        "description": "We offer tailored development services to meet your unique business needs, creating bespoke cryptocurrency exchanges."
+      },
+      {
+        "icon": "cryptcuur03.png",
+        "heading": "Advanced Security",
+        "description": "We prioritize security, implementing cutting-edge protocols and practices to secure your exchange and users' assets."
+      }
+    ]
+  },
+  {
+    "fromPage": "cryptocurrency-payment-gateway-development",
+    "pageDescription": "Develop Secure and Customizable Payment Gateways for Processing Cryptocurrency Transactions Quickly.",
+    "data": [
+      {
+        "icon": "expert_dev.png",
+        "heading": "Expert Developers",
+        "description": "Our crypto developers craft advanced crypto payment gateway solutions tailored to industry standards and client needs."
+      },
+      {
+        "icon": "cryptcuur02.png",
+        "heading": "End-to-End Solutions",
+        "description": "We offer comprehensive services from integration to deployment, supporting various cryptocurrencies."
+      },
+      {
+        "icon": "nftMar03.png",
+        "heading": "Availability",
+        "description": "Our team provides instant assistance, proactive monitoring, and issue resolution for the uninterrupted operation of crypto payment gateways."
+      }
+    ]
+  },
+
+  {
+    "fromPage": "crypto-coin-development-company",
+    "pageDescription": "Maximize Your Crypto Experience with Our Crypto Services to Improve ROI",
+    "data": [
+      {
+        "icon": "team.png",
+        "heading": "Experienced Team",
+        "description": "Our developers have extensive knowledge of blockchain and cryptocurrency development."
+      },
+      {
+        "icon": "cryptocoin02.png",
+        "heading": "End-to-End Development",
+        "description": "From design to deployment and maintenance, we assist you throughout the entire development process."
+      },
+      {
+        "icon": "cryptocoin03.png",
+        "heading": "Innovative Technology",
+        "description": "We leverage the latest technologies to develop cutting-edge and efficient crypto coins."
+      }
+    ]
+  },
+
+  {
+    "fromPage": "crypto-token-development-company",
+    "pageDescription": "Experience Innovative, Secure, Scalable Crypto Coin Development Services with us",
+    "data": [
+      {
+        "icon": "cryptotoken01.png",
+        "heading": "Deep Expertise",
+        "description": "We have professional token developers to create secure crypto tokens, ensuring top-quality solutions."
+      },
+      {
+        "icon": "cryptotoken02.png",
+        "heading": "Security Focused",
+        "description": "We implement robust protocols and practices to safeguard your tokens and protect them from potential threats."
+      },
+      {
+        "icon": "cryptotoken03.png",
+        "heading": "Flexible Solutions",
+        "description": "Our solutions are designed to be flexible, accommodating future growth and evolving market conditions."
+      }
+    ]
+  },
+
+  {
+    "fromPage": "centralized-exchange-development-company",
+    "pageDescription": "We Create Scalable Cryptocurrency Exchange Platforms for Higher Performance and Security.",
+    "data": [
+      {
+        "icon": "team.png",
+        "heading": "Veteran Team ",
+        "description": "Our team excels in blockchain complexities, providing outstanding services that distinguish us in the market."
+      },
+      {
+        "icon": "Centralized01.png",
+        "heading": "After-math Support",
+        "description": "We offer after-launch support to ensure your exchange operates smoothly and efficiently."
+      },
+      {
+        "icon": "Centralized02.png",
+        "heading": "Proven Track Record",
+        "description": "We have a proven history of delivering reliable and high-performing solutions."
+      }
+    ]
+  },
+
+  {
+    "fromPage": "Blockchain Development",
+    "pageDescription": "Avail Pioneering Blockchain Solutions for Your Digital Transformation Journey ",
+    "data": [
+      {
+        "icon": "/contactIcon/blockchain.svg",
+        "heading": "Expert Team",
+        "description": "Our blockchain developers possess the technical prowess to bring your vision to life in blockchain technology."
+      },
+      {
+        "icon": "/contactIcon/blockchain.svg",
+        "heading": "Customized Solutions",
+        "description": "Whether you are a startup or an enterprise, we understand your specific needs and deliver tailor-made blockchain solutions."
+      },
+      {
+        "icon": "/contactIcon/blockchain.svg",
+        "heading": "After-launch Support",
+        "description": "We provide ongoing assistance to ensure that your blockchain solution remains optimized in decentralized technology."
+      }
+    ]
+  },
+
+  {
+    "fromPage": "dapp-development-services",
+    "pageDescription": "We Provide Scalable dApp Development, Empowering Financial Freedom in Decentralized Markets",
+    "data": [
+      {
+        "icon": "dapp01.png",
+        "heading": "Expertise",
+        "description": "Our dApp developers craft bespoke solutions tailored to individual client requirements, ensuring top-tier quality."
+      },
+      {
+        "icon": "dapp02.png",
+        "heading": "Custom Solutions",
+        "description": "We specialize in customizing dApp solutions, precisely crafted to fulfill the demand off each client."
+      },
+      {
+        "icon": "dapp03.png",
+        "heading": "Client-based Approach",
+        "description": "Our dApp development team adopts a client-centric approach for collaboration and to achieve your goals. "
+      }
+    ]
+  },
+
+  {
+    "fromPage": "cryptocurrency-development-services",
+    "pageDescription": "Experience Ultimate Solutions for Your Cryptocurrency Development That Fits Your Needs",
+    "data": [
+      {
+        "icon": "Cryptocurrency01.png",
+        "heading": "Dedicated Team",
+        "description": "We have 100+ experienced cryptocurrency developers to cater to you in crafting unique digital currencies"
+      },
+      {
+        "icon": "Cryptocurrency02.png",
+        "heading": "Tech Expertise  ",
+        "description": "Our team has proficiency in the latest blockchain technologies and tools to develop effective cryptocurrency solutions."
+      },
+      {
+        "icon": "Cryptocurrency03.png",
+        "heading": "Global Reach",
+        "description": "Our services extend globally, reaching clients across borders to fulfill diverse blockchain needs with excellence."
+      }
+    ]
+  },
+
+  {
+    "fromPage": "mobile-app-development-services",
+    "pageDescription": "Craft Custom Mobile Apps, Blending Innovation to Elevate Businesses with LBM Solutions",
+    "data": [
+      {
+        "icon": "mobile01.png",
+        "heading": "Skilled Team",
+        "description": "With over a decade of expertise, our developers have delivered iOS and Android apps across a cross-platform"
+      },
+      {
+        "icon": "mobile02.png",
+        "heading": "Security Solutions",
+        "description": "Our services ensure your app security through adherence to robust data protection and secure user authentication"
+      },
+      {
+        "icon": "mobile03.png",
+        "heading": "Customized Solutions",
+        "description": "We provide unique app development tailored to your unique needs, ensuring seamless functionality and user satisfaction"
+      }
+    ]
+  },
+
+  {
+    "fromPage": "metaverse-game-development",
+    "pageDescription": "Explore Immersive Metaverse Gaming with Our Customizable Avatars and Gaming Solutions.",
+    "data": [
+      {
+        "icon": "metagm01.png",
+        "heading": "Expertise ",
+        "description": "Our metaverse game developers ensure a stable and scalable gaming platform that sets industry standards."
+      },
+      {
+        "icon": "metagm02.png",
+        "heading": "Innovative Integration",
+        "description": "We integrate augmented, virtual, and real-world elements in our solutions to create an engaging gaming experience."
+      },
+      {
+        "icon": "metagm03.png",
+        "heading": "Advanced Trading Systems",
+        "description": "We enable robust mechanisms within our games, allowing players to exchange assets and commodities."
+      }
+    ]
+  },
+
+  {
+    "fromPage": "p2p-crypto-exchange-development",
+    "pageDescription": "",
+    "data": [
+      {
+        "icon": "team.png",
+        "heading": "Veteran developers",
+        "description": "We Craft Secure P2P Crypto Exchanges with Adaptable Interfaces and Regulatory Compliance."
+      },
+      {
+        "icon": "p2p02.png",
+        "heading": "User-Centric Design",
+        "description": "Our intuitive interfaces simplify the trading process, making crypto exchange accessible to beginners and skilled traders."
+      },
+      {
+        "icon": "p2p03.png",
+        "heading": "24/7 Support",
+        "description": "We provide continuous technical support to optimize your exchange's uptime and enhance user satisfaction."
+      }
+    ]
+  },
+
+  {
+    "fromPage": "defi-development-company",
+    "pageDescription": "Leading DeFi development company with 200+ developers creating secure DeFi platforms",
+    "data": [
+      {
+        "icon": "team.png",
+        "heading": "Experienced Team",
+        "description": "Our DeFi developers have extensive experience in ensuring top-tier service in decentralized finance solutions."
+      },
+      {
+        "icon": "defi02.png",
+        "heading": "Innovative Technology",
+        "description": "We leverage advanced blockchain technology to develop secure DeFi platforms that drive the future of finance."
+      },
+      {
+        "icon": "defi03.png",
+        "heading": "End-to-End Solutions",
+        "description": "Our team offers continuous maintenance help to ensure your decentralized finance platform performs optimally."
+      }
+    ]
+  },
+
+  {
+    "fromPage": "ico-development",
+    "pageDescription": "Specializing in ICO Development, We Ensure Transparent Fundraising with Our Token Platforms",
+    "data": [
+      {
+        "icon": "ico01.png",
+        "heading": "Comprehensive Strategy",
+        "description": "Our developers provide comprehensive services, from whitepaper drafting to token design, ensuring a holistic approach."
+      },
+      {
+        "icon": "ico02.png",
+        "heading": "Post-Launch Services",
+        "description": "Beyond the ICO, we offer support for token management, exchange listings, and community building."
+      },
+      {
+        "icon": "ico03.png",
+        "heading": "Marketing and PR Support",
+        "description": "We help you gain visibility and credibility in the market through strategic marketing and public relations."
+      }
+    ]
+  },
+
+  {
+    "fromPage": "nft-marketplace-development-company",
+    "pageDescription": "Experience Secure, Engaging NFT Marketplaces for Digital Trading with LBM Solutions.",
+    "data": [
+      {
+        "icon": "nftMar01.png",
+        "heading": "Deep Expertise",
+        "description": "We are experts in crafting NFT marketplaces to enhance user satisfaction and platform usability."
+      },
+      {
+        "icon": "nftMar02.png",
+        "heading": "Scalable Solutions",
+        "description": "Our NFT marketplaces enable us to handle growing user and transaction volumes while maintaining optimal performance."
+      },
+      {
+        "icon": "nftMar03.png",
+        "heading": "24/7 Availability",
+        "description": "We continuously deliver updates and support to keep your NFT marketplace innovative and competitive."
+      }
+    ]
+  },
+
+  {
+    "fromPage": "crypto-trading-bot-development-company",
+    "pageDescription": "Develop Advanced, Automated Crypto Trading Bots for Optimized Market Strategies with Us.",
+    "data": [
+      {
+        "icon": "trading01.png",
+        "heading": "Trading Efficiency",
+        "description": "Our trading bot development services automate and optimize strategies, ensuring you capitalize on every market opportunity."
+      },
+      {
+        "icon": "trading02.png",
+        "heading": "Risk Management",
+        "description": "Implement advanced algorithms that help manage and mitigate risks automatically, protecting your assets against market volatility."
+      },
+      {
+        "icon": "trading03.png",
+        "heading": "User-Friendly Interface",
+        "description": "Our accessible interfaces make it easy to manage your bot and understand your trading performance."
+      }
+    ]
+  },
+
+  {
+    "fromPage": "crypto-banking-solution",
+    "pageDescription": "Develop Secure Crypto Banking Solutions for Smooth Digital Asset Management",
+    "data": [
+      {
+        "icon": "crptbanking01.png",
+        "heading": "Adept Team",
+        "description": "We deliver pioneering crypto banking platforms, ensuring top-notch service and financial management experiences."
+      },
+      {
+        "icon": "crptbanking02.png",
+        "heading": "Financial Services",
+        "description": "Our platform integrates diverse services, from savings and loans to investment opportunities, ensuring an accessible platform."
+      },
+      {
+        "icon": "crptbanking03.png",
+        "heading": "Schedule a Consultation",
+        "description": "Connect with our experts to explore custom crypto banking solutions that enhance your trading operations securely."
+      }
+    ]
+  },
+
+  {
+    "fromPage": "sto-development-company",
+    "pageDescription": "We Render Innovative, Scalable STO Development for Successful Asset Tokenization.",
+    "data": [
+      {
+        "icon": "sto01.png",
+        "heading": "Expertise",
+        "description": "Our team has deep knowledge of blockchain technology and regulatory compliance, ensuring successful STO launches."
+      },
+      {
+        "icon": "sto02.png",
+        "heading": "Global Reach",
+        "description": "Integrated with various networks and exchanges, our STO solutions provide access to a global pool of investors."
+      },
+      {
+        "icon": "sto03.png",
+        "heading": "End-to-end Support",
+        "description": "We offer end-to-end support, from initial planning to post-launch maintenance, ensuring seamless STO development."
+      }
+    ]
+  },
+  {
+    "fromPage": "metaverse-avatar-development",
+    "pageDescription": "Turn your imagination into life with customizable metaverse avatar development solutions.",
+    "data": [
+      {
+        "icon": "team.png",
+        "heading": "Experienced Team",
+        "description": "Our metaverse developers are dedicated to crafting appealing avatars, ensuring your virtual presence exceeds expectations."
+      },
+      {
+        "icon": "smart03.png",
+        "heading": "Continuous Support",
+        "description": "Our team ensures that your metaverse avatar development journey remains smooth with our 24/7 assistance."
+      },
+      {
+        "icon": "cryptcuur01.png",
+        "heading": "Immersive Experience",
+        "description": "Our avatars are designed to provide a realistic experience, enhancing interaction in the metaverse and prioritizing user engagement."
+      }
+    ]
+  },
+  {
+    "fromPage": "metaverse-3d-space-development",
+    "pageDescription": "Create Captivate Virtual Spaces with Our Metaverse 3D Space Development Services",
+    "data": [
+      {
+        "icon": "team.png",
+        "heading": "Skilled Team",
+        "description": "Our seasoned metaverse developers provide engaging 3D space tailored to your needs and goals."
+      },
+      {
+        "icon": "dapp03.png",
+        "heading": "Client-Centric Approach",
+        "description": "Our metaverse 3D space development solutions prioritize your needs, delivering personalized solutions that align with your vision."
+      },
+      {
+        "icon": "p2p03.png",
+        "heading": " Post-Launch Support",
+        "description": "We ensure your metaverse 3D space remains optimized and functional, providing ongoing maintenance to enhance project success."
+      }
+    ]
+  },
+  {
+    "fromPage": "dao-development-company",
+    "pageDescription": "Craft Efficient DAO Development Solutions Leveraging Blockchain Technology with LBM Solutions.",
+    "data": [
+      {
+        "icon": "team.png",
+        "heading": "Expertise",
+        "description": "Our dApp developers craft scalable solutions, ensuring your DAO can scale efficiently to meet the demands of users."
+      },
+      {
+        "icon": "meta02.png",
+        "heading": "Customizable Solutions ",
+        "description": "We provide bespoke DAO solutions designed to ensure adaptability and scalability, achieving your decentralized objectives."
+      },
+      {
+        "icon": "p2p03.png",
+        "heading": "Continuous Support",
+        "description": "Our team ensures smooth operation, prompt issue resolution, and regular updates, maintaining the efficiency of your DAO platform."
+      }
+    ]
+  },
+  {
+    "fromPage": "decentralized-exchange-development-company",
+    "pageDescription": "Elevate Your Trading Experience with Our Innovative, Secure DEX Development Solutions",
+    "data": [
+      {
+        "icon": "team.png",
+        "heading": "Expert team",
+        "description": "We have 200+ crypto exchange developers, ensuring the highest standards of proficiency and innovation in creating decentralized exchange solutions"
+      },
+      {
+        "icon": "dapp03.png",
+        "heading": "User-Centric Design",
+        "description": "We craft intuitive user interfaces to enhance user satisfaction and engagement in the trading realm."
+      },
+      {
+        "icon": "nftMar03.png",
+        "heading": "24/7 Support",
+        "description": "Our team guarantees your DEX's security, updates, and flawless functionality, providing coherent trading experiences."
+      }
+    ]
+  },
+  {
+    "fromPage": "contact",
+    "pageDescription": "Elevate Your Brand Visibility and Build Credibility with Our Crypto Marketing Strategies  ",
+    "data": [
+      {
+        "icon": "dapp01.png",
+        "heading": "Expertise",
+        "description": "Our marketing team is highly skilled in promoting crypto projects via branding, PR, and community engagement."
+      },
+      {
+        "icon": "ico01.png",
+        "heading": "Comprehensive Services",
+        "description": "We render complete crypto marketing solutions to expand business growth and increase the visibility of crypto projects."
+      },
+      {
+        "icon": "Cryptocurrency03.png",
+        "heading": "Global Reach",
+        "description": "Our strategies reach a global audience with targeted campaigns, leveraging our network to maximize RoI worldwide."
+      }
+    ]
+  },
+  {
+    "fromPage": "about",
+    "pageDescription": "Shape Your Digital Future with Our Blockchain, Software and Mobile App Development Solutions.",
+    "data": [
+      {
+        "icon": "team.png",
+        "heading": "Veteran Team",
+        "description": "We have skilled team of developers with extensive experience in blockchain technology and software development."
+      },
+      {
+        "icon": "sfotdev01.png",
+        "heading": "Technical Expertise",
+        "description": "Harnessing advanced technologies, our team delivers expert software and app solutions tailored to your business needs."
+      },
+      {
+        "icon": "nftMar03.png",
+        "heading": "24/7 Availability",
+        "description": "Our continuous support ensures seamless development solutions, addressing needs and concerns around the clock."
+      }
+    ]
+  },
+  {
+    "fromPage": "blogs",
+    "pageDescription": "Shape Your Digital Future with Our Blockchain, Software and Mobile App Development Solutions.",
+    "data": [
+      {
+        "icon": "team.png",
+        "heading": "Veteran Team",
+        "description": "We have skilled team of developers with extensive experience in blockchain technology and software development."
+      },
+      {
+        "icon": "sfotdev01.png",
+        "heading": "Technical Expertise",
+        "description": "Harnessing advanced technologies, our team delivers expert software and app solutions tailored to your business needs."
+      },
+      {
+        "icon": "nftMar03.png",
+        "heading": "24/7 Availability",
+        "description": "Our continuous support ensures seamless development solutions, addressing needs and concerns around the clock."
+      }
+    ]
+  },
+  {
+    "fromPage": "crypto-marketing-agency",
+    "pageDescription": "Elevate Your Brand Visibility and Build Credibility with Our Crypto Marketing Strategies ",
+    "data": [
+      {
+        "icon": "team.png",
+        "heading": "Expertise",
+        "description": "Our marketing team is highly skilled in promoting crypto projects via branding, PR, and community engagement."
+      },
+      {
+        "icon": "ico01.png",
+        "heading": "Comprehensive Services",
+        "description": "We render complete crypto marketing solutions to expand business growth and increase the visibility of crypto projects."
+      },
+      {
+        "icon": "Cryptocurrency03.png",
+        "heading": "Global Reach",
+        "description": "Our strategies reach a global audience with targeted campaigns, leveraging our network to maximize RoI worldwide."
+      }
+    ]
+  },
+  {
+    "fromPage": "blockchain-development-company",
+    "pageDescription": "Create Adaptable Blockchain Platforms to Avail Optimal Performance for Your Business.",
+    "data": [
+      {
+        "icon": "team.png",
+        "heading": "Expertise",
+        "description": "Our blockchain developers have expertise in delivering secure blockchain development solutions that meet industry standards."
+      },
+      {
+        "icon": "dapp03.png",
+        "heading": "Client-Centric Solutions",
+        "description": "We provide tailored blockchain solutions to meet client requirements, ensuring consistent integration with existing systems."
+      },
+      {
+        "icon": "cross-platform.png",
+        "heading": "Cross-Platform",
+        "description": "We develop blockchain applications that operate across multiple platforms and devices, ensuring compatibility and accessibility."
+      }
+    ]
+  },
+  {
+    "fromPage": "custom-crm-software-development",
+    "pageDescription": "Enhance Customer Interactions and Business Growth with Our Customized CRM Software Solutions",
+    "data": [
+      {
+        "icon": "team.png",
+        "heading": "Veteran Developers",
+        "description": "Our CRM developers provide custom CRM software that meets your needs and delivers with precision."
+      },
+      {
+        "icon": "dapp03.png",
+        "heading": "After-launch Support",
+        "description": "Our support team ensures your CRM system runs smoothly after deployment, offering continuous maintenance and troubleshooting."
+      },
+      {
+        "icon": "cross-platform.png",
+        "heading": "Custom Solutions",
+        "description": "Our solutions are designed to meet your specific CRM needs, supporting your business growth."
+      }
+    ]
+  },
+  {
+    "fromPage": "cryptocurrency-mlm-software-development",
+    "pageDescription": "Revolutionizing finance with our innovative, scalable cryptocurrency MLM software solutions.",
+    "data": [
+      {
+        "icon": "team.png",
+        "heading": "Expert Team",
+        "description": "Our MLM software developers craft advanced MLM software, ensuring robust security to drive success."
+      },
+      {
+        "icon": "nft03.png",
+        "heading": "Proven Track Record",
+        "description": "Our team excels in meeting client expectations and has delivered various MLM projects."
+      },
+      {
+        "icon": "meta02.png",
+        "heading": "Seamless Integration",
+        "description": "We integrate MLM software with your existing systems to enhance operational efficiency."
+      }
+    ]
+  },
+  {
+    "fromPage": "blockchain-game-development-company",
+    "pageDescription": "Create Blockchain Games for Secure Asset Ownership and Transactions in Games with Us.",
+    "data": [
+      {
+        "icon": "team.png",
+        "heading": "Expertise",
+        "description": " Our blockchain developers specialize in creating interactive blockchain games with NFTs and decentralized marketplaces."
+      },
+      {
+        "icon": "nft03.png",
+        "heading": "Innovative Solutions",
+        "description": "We leverage blockchain technology to develop innovative games and transparent economies, enhancing player engagement."
+      },
+      {
+        "icon": "meta02.png",
+        "heading": "Customized Games",
+        "description": " We create unique blockchain games with custom features and player-driven ecosystems to meet client needs."
+      }
+    ]
+  },
+  {
+    "fromPage": "play-to-earn-game-development",
+    "pageDescription": "Create Interactive P2E Games with Us Where Players Can Earn Real Value in Games",
+    "data": [
+      {
+        "icon": "team.png",
+        "heading": "Expert Team",
+        "description": "Our P2E game developers are skilled in designing and developing engaging play-to-earn games that ensure fun and profitability."
+      },
+      {
+        "icon": "nft03.png",
+        "heading": "On-time Delivery",
+        "description": "Our project management team ensures to deliver play to earn games on time with consistent updates."
+      },
+      {
+        "icon": "meta02.png",
+        "heading": "After-Launch Support",
+        "description": "We provide reliable ongoing support to resolve any bug and ensure smooth processing of your play-to-earn game."
+      }
+    ]
+  },
+  {
+    "fromPage": "digital-marketing-agency",
+    "pageDescription": "Drive Measurable Results And Business Reach With Our Expert Digital Marketing Solutions",
+    "data": [
+      {
+        "icon": "touch.png",
+        "heading": "Get in Touch",
+        "description": "Complete our form, and our experts will contact you within 24 hours to connect to align with your business objectives."
+      },
+      {
+        "icon": "tech_exp.png",
+        "heading": "Technical Expertise",
+        "description": "Our experts create and execute data-driven strategies tailored to maximize your brand’s growth and engagement."
+      },
+      {
+        "icon": "acc_grouth.png",
+        "heading": "Accelerate Your Growth",
+        "description": "From increasing brand visibility to driving conversions, we focus on measurable success that scales your business."
+      }
+    ]
+  },
+  {
+    "fromPage": "website-development",
+    "pageDescription": "Share your business goals, and we will deliver future-ready websites that drive real results",
+    "data": [
+      {
+        "icon": "response.png",
+        "heading": "Quick Response",
+        "description": "Get fast, reliable support from our website experts. We ensure a smooth process from consultation to launch."
+      },
+      {
+        "icon": "team.png",
+        "heading": "Veteran Team",
+        "description": "We have experienced web designers, developers, testers, and project managers delivering high-quality websites on time. "
+      },
+      {
+        "icon": "strategy.png",
+        "heading": "Custom Strategy",
+        "description": "We analyze your goals and create a unique website using the latest technology for your business success."
+      }
+    ]
+  },
+  {
+    "fromPage": "clone-script-app-development",
+    "pageDescription": "Create High-Quality Clone Apps Tailored to Your Needs, Leveraging Custom Clone Scripts with Us!",
+    "data": [
+      {
+        "icon": "response.png",
+        "heading": "Expertise",
+        "description": "Our clone app developers specialize in clone app development and meeting specific needs and industry trends."
+      },
+      {
+        "icon": "team.png",
+        "heading": "Ongoing Support",
+        "description": "Our clone app development team is dedicated to providing reliable, responsive service, ensuring your app remains functional."
+      },
+      {
+        "icon": "strategy.png",
+        "heading": "Tailored Solutions",
+        "description": "We develop clone phone apps to match your unique business requirements, customizing features and functionalities."
+      }
+    ]
+  }
+]

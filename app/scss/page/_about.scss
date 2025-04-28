@@ -1,0 +1,88 @@
+section.believe {
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 20%;
+    width: 10%;
+    height: 100%;
+    background-color: var(--yellow-green);
+    z-index: 0;
+    box-shadow: rgb(0 0 0 / 35%) 0px 4px 16px 0px inset,
+      rgb(17 17 26 / 38%) 0px 8px 32px 0px;
+  }
+}
+section.our_meet {
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 24%;
+    height: 30%;
+    bottom: 0;
+    background-color: var(--yellow-green);
+    z-index: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 16px 0px inset,
+      rgba(17, 17, 26, 0.38) 0px 8px 32px 0px;
+    margin: auto;
+  }
+}
+
+section.managing_director {
+  .img_mrgtop {
+    position: relative;
+    top: 120px;
+  }
+}
+
+section.team_leaders {
+  .leader_name {
+    background-color: var(--black_clr);
+    p {
+      font-size: 18px;
+    }
+  }
+  .img_box {
+    .img {
+      overflow: hidden;
+    }
+    img {
+      transition: 0.5s all;
+    }
+    :hover {
+      img {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  section.believe {
+    &:before {
+      content: unset;
+    }
+  }
+  section.managing_director {
+    .img_mrgtop {
+      top: 0px;
+    }
+  }
+  section.team_leaders {
+    .leader_name {
+      p {
+        font-size: 13px;
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  section.managing_director {
+    .img_mrgtop {
+      top: 0px;
+    }
+  }
+}

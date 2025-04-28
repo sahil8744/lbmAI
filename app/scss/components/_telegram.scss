@@ -1,0 +1,71 @@
+.telegram-info,
+.pulse01 {
+  display: inline-block;
+  color: #fff;
+  background: #0088cc;
+  position: fixed;
+  bottom: 100px;
+  left: 18px;
+  font-size: 30px;
+  text-align: center;
+  z-index: 99;
+  border-radius: 100%;
+  height: 52px;
+  width: 52px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+
+
+@keyframes pulse01 {
+  0% {
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    -webkit-transform: scale(1.6);
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+.pulse01:nth-child(1) {
+  -webkit-animation: pulse 2s infinite;
+  animation: pulse01 2s infinite;
+}
+
+.pulse01:nth-child(2) {
+  -webkit-animation: pulse 2s infinite 0.3s;
+  animation: pulse01 2s infinite 0.3s;
+}
+
+.pulse01:nth-child(3) {
+  -webkit-animation: pulse 2s infinite 0.6s;
+  animation: pulse01 2s infinite 0.6s;
+}
+
+.fa {
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 14px;
+  font-size: inherit;
+  text-rendering: auto;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+@media (max-width: 767px) {
+  .telegram-info,
+  .pulse01 {
+    bottom: 70px;
+    left: 5px;
+    font-size: 24px;
+    z-index: 99;
+    height: 40px;
+    width: 40px;
+  }
+}

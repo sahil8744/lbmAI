@@ -1,0 +1,117 @@
+.cta_clr {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0 7px 29px 0 hsla(240, 5%, 41%, 0.2);
+  overflow: hidden;
+
+  h2 {
+    font-size: 54px;
+    font-family: LatoBold;
+  }
+
+  .inner_txt .btn {
+    padding: 4px;
+    border: 2px solid var(--yellow-green);
+    position: relative;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0%;
+      height: 100%;
+      background-color: var(--yellow-green);
+      transition: 0.5s all;
+    }
+
+    &:hover {
+      &:before {
+        width: 100%;
+      }
+    }
+
+    span {
+      background: var(--yellow-green);
+      padding: 10px 20px;
+      border-radius: 6px;
+      margin-right: 10px;
+      color: var(--white);
+      transition: all 0.5s;
+    }
+  }
+
+  a.btn_bg {
+    transition: 0.5s all;
+    &:hover {
+      color: var(--black);
+      svg {
+        color: var(--white) !important;
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .cta_clr {
+    h2 {
+      font-size: 22px;
+    }
+    .inner_txt .btn {
+      padding: 3px;
+      span {
+        padding: 4px 12px;
+        border-radius: 4px;
+        margin-right: 4px;
+        font-size: 15px;
+      }
+    }
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .cta_clr {
+    h2 {
+      font-size: 26px;
+    }
+    .inner_txt .btn {
+        padding: 3px;
+        span {
+          padding: 4px 12px;
+          border-radius: 4px;
+          margin-right: 4px;
+          font-size: 15px;
+        }
+      }
+    
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .cta_clr {
+    h2 {
+      font-size: 22px;
+    }
+    .inner_txt .btn {
+        padding: 3px;
+        span {
+          padding: 4px 12px;
+          border-radius: 4px;
+          margin-right: 4px;
+          font-size: 15px;
+        }
+      }
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .cta_clr {
+    h2 {
+      font-size: 28px;
+    }
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .cta_clr {
+    h2 {
+      font-size: 36px;
+    }
+  }
+}

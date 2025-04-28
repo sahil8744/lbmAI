@@ -1,0 +1,37 @@
+
+
+@media(min-width:320px) and (max-width:767){
+    footer{
+        .copy_right{
+            font-size: 16px !important;
+        }
+        ul {
+            li{
+                a{
+                    white-space: nowrap;
+                    font-size: 16px !important;
+                }
+            }
+        }
+        
+    
+    }
+}
+
+@media(min-width:768px) and (max-width:1199){
+    footer{
+        .copy_right{
+            font-size: 16px !important;
+        }
+        ul {
+            li{
+                a{
+                    white-space: nowrap;
+                    font-size: 16px !important;
+                }
+            }
+        }
+        
+    
+    }
+}
